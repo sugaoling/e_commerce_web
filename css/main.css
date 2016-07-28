@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*
+公用*/
+.comWidth{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.leftArea{
+    float: left;
+}
+.rightArea{
+    float: right;
+}
+
+/*topBar*/
+.topBar{
+    height: 31px;
+    background-color: #F7F7F7;
+    line-height:31px;
+}
+.collection{
+    background: url("../images/collection.png") left center no-repeat;
+    padding-left: 19px;
+    font-weight: bold;
+}
+.topBar a:hover{
+    color: crimson;
+}
+/*logo*/
+.logoBar{
+    height: 80px;
+    background-color: deeppink;
+    line-height: 80px;
+}
