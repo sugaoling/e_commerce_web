@@ -85,4 +85,71 @@ search*/
     text-align: center;
     padding-right: 29px;
 }
-
+/*导航*/
+.navBox{
+    height: 35px;
+    background-color: #FF3E96;
+    color: white;
+    font-family: 微软雅黑;
+}
+/*.shopClass{
+    width: 190px;
+    line-height: 35px;!*注意会留下后患*!
+    text-align: center;
+}*/
+.shopClass{
+    width: 190px;
+    position: relative;
+}
+.shopClass h3{
+    line-height: 35px;
+    text-align: center;
+}
+.shopClass i{
+    width: 13px;
+    height: 7px;
+    overflow: hidden;
+    background: url("../images/combo_arrow.png") left center no-repeat;
+    display: inline-block;
+    margin-left: 11px;
+}
+.nav li{
+    line-height: 35px;
+    float: left;
+}
+.nav a{
+    color: #fff;
+    padding: 0 25px;
+    font-family: 微软雅黑;
+    display: inline-block;
+}
+.nav .active{
+    background-color: #FF6EB4;
+}
+.shopClass_show{
+    background-color: #FF6EB4;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 35px;
+}
+.shopClass_item{
+    padding: 14px 10px;
+    border-top: #FF83FA solid 1px;
+    border-bottom:#FF1493 solid 1px ;
+}
+.shopClass_item dt{
+    height: 22px;
+    background: url("../images/next-disabled.png") right center no-repeat;
+}
+.shopClass_item .b{
+    font:14px/1px 微软雅黑;
+}
+.shopClass_item a{
+    color: #fff;
+}
+.shopClass_item .aLink{
+    background-color: crimson;
+    border-radius: 8px;
+    text-decoration: underline;
+}
