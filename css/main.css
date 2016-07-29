@@ -29,7 +29,60 @@
 }
 /*logo*/
 .logoBar{
-    height: 80px;
+    height: 85px;
     background-color: deeppink;
-    line-height: 80px;
+    line-height: 85px;
 }
+.logo{
+    padding-left: 41px;
+    padding-top: 15px;
+}
+/*
+search*/
+.searchBox{
+    width: 430px;
+    padding-top: 23px;
+    padding-left: 185px;
+}
+.searchText{
+    width: 350px;
+    height: 35px;
+    padding: 0 5px;
+}
+.searchBtn{
+    width:70px ;
+    height: 35px;
+    background-color: crimson;
+    color: white;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.shopCar{
+    height: 35px;
+    width: 145px;
+    background-color: crimson;
+    margin-top: 23px;
+    font:14px/35px 微软雅黑;
+    color: white;
+    margin-right: 59px;
+}
+.shopText{
+   /* font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 35px;*/
+
+    height: 100%;
+    width: 87px;
+    border-right: #E27A00 solid 1px;
+    background: url("../images/shopIcon.png") 5px center no-repeat;
+    text-indent: 40px;
+}
+.shopNum{
+    width:27px ;
+    height: 35px;
+    background: url("../images/arrow_drop_down.png") 20px  center no-repeat;
+    border-left: #FF9C01 solid 1px;
+    text-align: center;
+    padding-right: 29px;
+}
+
