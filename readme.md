@@ -30,10 +30,27 @@ top 左右分布 左右浮动
 ###20160729																
 3.导航
 (1)全部商品下拉
-	下拉图标安放<i></i>																
+	下拉图标安放< i >< /i >																
 (2)右面ul  li 依次横排 float:left
 (3)下拉列表 字体 四周填充   右侧图标															
 (4)下拉列表absolute 与全部商品下拉relative 定位
+4.右侧商品分类展示
+dl dt dd
+padding: 
+padding:10px 5px 15px 20px;
+
+    上内边距是 10px
+    右内边距是 5px
+    下内边距是 15px
+    左内边距是 20px
+padding:10px 5px 15px;
+
+    上内边距是 10px
+    右内边距和左内边距是 5px
+    下内边距是 15px
+padding:10px;
+
+    所有 4 个内边距都是 10px
 
 																
 																

@@ -153,3 +153,46 @@ search*/
     border-radius: 8px;
     text-decoration: underline;
 }
+
+.shopClass_list{
+    width: 568px;
+    height: 378px;
+    border: #CCC solid 1px;
+    position: absolute;
+    left: 190px;
+    top: 35px;
+}
+.shopClass_content{
+    padding: 0 20px;
+}
+.shopList_item{
+    padding: 8px 0;
+    border-bottom: #CCCCCC solid 1px;
+}
+.shopList_item dt{
+    color: #FF1493 ;
+    font-weight: bold;
+    height:24px;
+    line-height: 24px;
+}
+.shopList_item dd{
+    padding-left: 68px;
+    margin-top: -24px;
+    line-height: 24px;
+}
+.shopList_item dd a{
+    margin-right: 12px;
+}
+.shopList_links a{
+    color: #FFF;
+    background-color: #FF1493;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0 16px 0 8px;/*上右下左*/
+}
+.shopList_links span{
+    background: url("../images/next-disabled.png") left center no-repeat;
+    display: inline-block;
+}
