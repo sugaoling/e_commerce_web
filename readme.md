@@ -51,13 +51,29 @@ padding:10px 5px 15px;
 padding:10px;
 
     所有 4 个内边距都是 10px
-
-																
-																
-																
-																
-																
-																
+###20160801
+5.定义下面两个样式 控制模块显示或隐藏
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+6.Banner横幅广告																
+overflow 属性规定当内容溢出元素框时发生的事情。																
+		visible 	默认值。内容不会被修剪，会呈现在元素框之外。
+		hidden 	内容会被修剪，并且其余内容是不可见的。
+		scroll 	内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。
+		auto 	如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。															
+7.内线元素 显示
+display:inline-block
+8.图片上显示滑动图标
+     父类                       banner_bar position:relative
+      图片                     imgBox	   position:absolute
+图片上的滑动图标imgNum           position:absolute																
+9.当有图片插入时，<img src="">
+最好给img设定一个宽度或高度，防止其对页面布局错位															
+10.元素浮动之后，页面就支持宽高了，所以有宽高即可，display：incline-block 可以去掉																
 																
 																
 																
