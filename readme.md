@@ -51,7 +51,7 @@ padding:10px 5px 15px;
 padding:10px;
 
     所有 4 个内边距都是 10px
-###20160801
+###20160801 滚动图片 banner+主列表左侧
 5.定义下面两个样式 控制模块显示或隐藏
 .hide{
     display: none;
@@ -74,7 +74,8 @@ display:inline-block
 9.当有图片插入时，<img src="">
 最好给img设定一个宽度或高度，防止其对页面布局错位															
 10.元素浮动之后，页面就支持宽高了，所以有宽高即可，display：incline-block 可以去掉																
-																
+20160802  主列表右侧
+
 																
 																
 																
