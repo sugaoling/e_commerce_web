@@ -22,9 +22,9 @@ top 左右分布 左右浮动
 2.顶部细化
        左                      左                              右
      logo图片                 搜索框                        购物车 图标+字体
-注：  位置                 宽高  左填充 背景颜色            /* font-size: 14px;
-															   font-family: 微软雅黑; <=>  font:14px/35px 微软雅黑;
-																line-height: 35px;*/
+注：  位置                 宽高  左填充 背景颜色          /* font-size: 14px;
+														 font-family: 微软雅黑; <=>font:14px/35px 微软雅黑;
+															line-height: 35px;*/
 															text-indent:40px;//首行缩进40px
 
 ###20160729																
@@ -71,10 +71,45 @@ display:inline-block
      父类                       banner_bar position:relative
       图片                     imgBox	   position:absolute
 图片上的滑动图标imgNum           position:absolute																
-9.当有图片插入时，<img src="">
+9.当有图片插入时，< img src="">
 最好给img设定一个宽度或高度，防止其对页面布局错位															
 10.元素浮动之后，页面就支持宽高了，所以有宽高即可，display：incline-block 可以去掉																
-20160802  主列表右侧
+20160802  主列表右侧  
+
+20160803  
+首页底部   
+1.背景灰色 width:100% 
+2.commonWidth:1000px;
+3.行高 height:24px   text-align:center 剧中
+3.< p>中文字< a> color：#000 及a:hover {color:red}
+5.图片 padding-top:30px  图片间距 margin:0 10px;
+
+产品分类左导航栏
+1.左导航栏和右侧banner部分 是左右两个模块  左侧导航栏  width:180px 向左浮动
+											banner   width:810px  向右浮动
+2.左侧导航栏 背景颜色 边宽 
+  其中包含产品标题和产品列表两部分
+  产品标题  字体大小 粗细  行高(垂直方向剧中) text-align:center(水平方向剧中)
+  产品列表  距离上下左右边框距离padding:0 18px 4px;   
+  			标题h3  行高 字体
+  			列表ul li  两列 li宽度width:50%; 向左浮动
+
+产品分类列表
+1.包括标题和商品展示两部分 与banner距离用div 其height:7px
+2.由于标题下方有一个灰色的长下划线和蓝色的短下划线，因此标题放在一个div中  
+	div 行高 下划线2px的灰色实线
+	标题 下划线1px的蓝色实线
+3.下方商品列表展示
+每一个模块都是图片+文字+价格+评价 每个的宽度为25%  间距margin:0 10px;
+模块用两层div嵌套  这样能防止每一行的第四个图片掉下来
+ 外层 padding: 0 10px;
+ 内层 width：25%；margin:0 10px; 向左浮动
+文字  大小 字体 行高 a:hover 
+价格  字体颜色 加粗 上边距margin-top:10px或者padding-top:10px 都能达到效果
+评价 星级  用< span> 设置span 高度 宽度 overflow:hidden 间距  内嵌元素展示需有 display：inline-block  
+
+
+
 
 																
 																
