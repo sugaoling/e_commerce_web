@@ -449,7 +449,9 @@ search*/
 }
 .nav_title{
     height: 34px;
-    font: 14px/34px 宋体;
+    font-size: 14px;
+    line-height: 34px;
+    font-family: 宋体;
     font-weight: bold;
     border-bottom: #D7D7D7 solid 1px;
     text-align: center;
@@ -529,4 +531,56 @@ search*/
 }
 .ht_40{
     height: 40px;
+}
+/*产品筛选*/
+/*左侧列表*/
+.vertical li{
+    width: auto;
+    float: none;
+    padding-left: 8px;
+}
+.vertical .nav_title{
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+.vertical .nav_cont h3{
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+/*右侧*/
+/*筛选*/
+.screening{
+    border-bottom: #CCCCCC solid 1px;
+}
+.screening dt{
+    line-height: 32px;
+    width: 74px;
+    text-align: right;
+    margin-right: 42px;
+    float: left;
+}
+.limit{
+    width: 55px;
+    float: left;
+    line-height: 32px;
+}
+.screening .active{
+    background-color: #1D7AD9;
+    color: #FFFFFF;
+}
+.screening a{
+    padding: 2px;
+}
+.screening_list{
+    line-height: 32px;
+    width: 626px;
+    float: left;
+
+}
+.screening_list a{
+    margin-right: 40px;
+    float: left;
+}
+.screening_list a:hover{
+    color: #1D7AD9;
 }
