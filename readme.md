@@ -108,7 +108,20 @@ display:inline-block
 价格  字体颜色 加粗 上边距margin-top:10px或者padding-top:10px 都能达到效果
 评价 星级  用< span> 设置span 高度 宽度 overflow:hidden 间距  内嵌元素展示需有 display：inline-block  
 
-
+###20160805
+产品筛选模块
+产品列表左侧区域
+1.产品列表只有一列 li width:auto
+2.标题字体大小 font-family
+产品筛选
+1.产品筛选标题 筛选商品名称
+dl dt dd  
+dt 高度 宽度 行高 左浮动
+dd 宽度 右边距 浮动
+2.商品展示
+三列 33.3% 图片 文字+价格+加入购物车
+问题：商品展示浏览器兼容问题？？？
+IE和firefox 展示正常，而google浏览器商品展示错位，明天将解决这个问题。
 
 
 																

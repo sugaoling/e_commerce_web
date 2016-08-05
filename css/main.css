@@ -438,7 +438,7 @@ search*/
 .products .banner_bar{
     float: none;
 }
-.products .item{
+.products .products_item{
     width: 25%;
     margin-bottom: 10px;
 }
@@ -491,10 +491,11 @@ search*/
     padding-left: 9px;
 }
 .products_item{
-    padding: 0 10px;
+    float: left;
 }
 .item{
-    float: left;
+    padding: 0 8px;
+    /*float: left;*/
 }
 .item_img{
     height: 170px;
@@ -577,10 +578,98 @@ search*/
     float: left;
 
 }
-.screening_list a{
+.screenList_cont a{
     margin-right: 40px;
     float: left;
 }
 .screening_list a:hover{
     color: #1D7AD9;
+}
+.screening_more{
+    height: 23px;
+    line-height: 23px;
+    border: #CCCCCC solid 1px;
+    float: left;
+    padding-left: 11px;
+    margin-top: 4px;
+    margin-right: 10px;
+    padding-right: 11px;
+}
+.screening_more a{
+    background: url("../images/screenmore.jpg") right center no-repeat;
+    padding-right: 9px;
+
+}
+/*配送地址选择*/
+.addInfo{
+    height: 32px;
+    line-height: 32px;
+    border: #CCCCCC solid 1px;
+    background-color: #F5F5F5;
+}
+.address{
+    float: left;
+}
+.add_text{
+    float: left;
+    padding-left: 13px;
+}
+.address span{
+    float: left;
+}
+
+.screen_text{
+    padding-right: 80px;
+}
+.check{
+    position: relative;
+    top: -1px;
+}
+.screen_text input,.screen_text label{
+    vertical-align: middle;
+}
+.shop_number em{
+    color: #F00;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.screen_more  .products_item{
+    width: 33%;
+}
+/*组件*/
+.select{
+    height: 22px;
+    line-height: 22px;
+    border: #999 solid 1px;
+    float: left;
+    margin: 4px 6px ;
+    background-color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 20px;
+    position: relative;
+    z-index: 4;
+}
+.select h3{
+    font-size: 12px;
+    font-weight: normal;
+}
+.select span{
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    background: url("../images/address.jpg") center center no-repeat;
+    right: 0;
+    top: 0;
+}
+.show_select{
+    position: absolute;
+    width: 100%;
+    left: -1px;
+    top: 22px;
+    background-color: #FFFFFF;
+    border: #999 solid 1px;
+}
+.show_select li{
+    padding-left: 10px;
 }
