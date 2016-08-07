@@ -686,7 +686,7 @@ search*/
     line-height: 22px;
     border: #999 solid 1px;
     float: left;
-    margin: 4px 6px ;
+   /* margin: 4px 6px ;*/
     background-color: #FFFFFF;
     padding-left: 10px;
     padding-right: 20px;
@@ -716,3 +716,176 @@ search*/
 .show_select li{
     padding-left: 10px;
 }
+/*产品介绍*/
+.grey{
+    background-color: #F0F0F0;
+}
+/*首页 > 平板电脑 > 平板电脑 > Apple 苹果 > MD531CH/A*/
+.userPosition{
+    font-size: 0px;
+    font-family: Verdana;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.userPosition em ,.userPosition span ,.userPosition a{
+    font-size: 12px;
+}
+.userPosition a:hover{
+    text-decoration: underline;
+}
+.userPosition em{
+    font-style: normal;
+}
+/*产品介绍*/
+.description_info{
+    background-color: #FFFFFF;
+}
+.description{
+    border: #CCCCCC solid 1px;
+}
+.description .leftArea{
+    width: 309px;
+
+}
+.description .rightArea{
+    width: 688px;
+    border-left: #CCCCCC solid 1px;
+}
+/*图片展示区*/
+.des_big{
+    height: 340px;
+    text-align: center;
+}
+.des_sm{
+    width: 265px;
+    margin: 0 auto;
+    padding-left: 1px;
+}
+.des_sm li{
+    float: left;
+    margin-left: -1px;
+}
+.des_sm img{
+    border: #CCCCCC solid 1px;
+}
+.des_sm .active{
+    border: #317EE7 solid 1px;
+    position: relative;/*提高优先级，提高层级*/
+}
+/*产品名称区*/
+.des_content{
+    padding: 10px;
+}
+.des_content_title{
+    font-family: 微软雅黑;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 13px 15px;
+}
+.des_content .dl{
+    margin-bottom: 10px;
+}
+.des_content .dt{
+    width: 75px;
+    float: left;
+    color: #656565;
+    text-indent: 17px;
+    /*padding-left: 17px;*/
+    line-height: 35px ;
+}
+.des_content .dd{
+    float: left;
+}
+.des_money{
+    font-family: Verdana;
+    font-size: 18px;
+    color: #D70000;
+}
+.des_money em{
+    font-style: normal;
+    font-size: 12px;
+}
+.hg{
+    padding-top: 4px;
+    display: inline-block;
+}
+.hg_icon{
+    width: 55px;
+    height: 18px;
+    background: url("../images/icon/hg_icon.jpg") left top no-repeat;
+    color: #FFFFFF;
+    font-style: normal;
+    text-indent: 16px;
+    line-height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+}
+/*送货区*/
+.des_position{
+    background-color: #F2F2F2;
+    padding: 15px 0;
+}
+.is_good{
+    line-height: 24px;
+    padding-left: 10px;
+}
+.des_content .color_select{
+    line-height: 35px;
+}
+.des_item{
+    background-color: #FFFFFF;
+    padding: 9px 10px;
+    border: #CCCCCC solid 1px;
+    float: left;
+    margin-right: 10px;
+}
+.des_item_active{
+    border: #1D7AD9 solid 1px;
+}
+.des_item_sm{
+    background-color: #FFFFFF;
+    padding: 4px 7px;
+    border: #CCCCCC solid 1px;
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: 新宋体;
+    color: #656565;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
