@@ -784,7 +784,7 @@ search*/
     padding: 13px 15px;
 }
 .des_content .dl{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 .des_content .dt{
     width: 75px;
@@ -792,10 +792,11 @@ search*/
     color: #656565;
     text-indent: 17px;
     /*padding-left: 17px;*/
-    line-height: 35px ;
+    line-height: 25px ;
 }
 .des_content .dd{
-    float: left;
+    width: 560px;
+   /* padding-left: 40px;*/
 }
 .des_money{
     font-family: Verdana;
@@ -844,15 +845,18 @@ search*/
     border: #1D7AD9 solid 1px;
 }
 .des_item_sm{
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
     padding: 4px 7px;
-    border: #CCCCCC solid 1px;
+   /* border: #CCCCCC solid 1px;
     float: left;
     margin-right: 10px;
     font-size: 14px;
     font-family: 新宋体;
-    color: #656565;
+    color: #656565;*/
     margin-bottom: 5px;
+}
+.des_content .des_select_more{
+    line-height: 55px;
 }
 
 
