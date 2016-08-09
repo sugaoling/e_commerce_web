@@ -858,9 +858,43 @@ search*/
 .des_content .des_select_more{
     line-height: 55px;
 }
+/*数量*/
+.des_number{
+    border: #B2B2B2 solid 1px;
+    height: 32px;
+    width: 82px;
 
+}
+.des_number div{
+    height: 100%;
+    float: left;
+}
+.reduction,.plus{
+    width: 15px;
+    background: url("../images/introduction/reduce_plus_bg.jpg") left top no-repeat;
+    line-height: 32px;
+    text-align: center;
+    color: #9F9F9F;
+}
+.reduction{
+    border-right: #B2B2B2 solid 1px;
+}
+.plus{
+    border-left: #B2B2B2 solid 1px;
+}
 
+.des_input{
+    width: 50px;
 
+}
+.des_input input{
+    width: 100%;
+    height: 100%;
+    line-height: 32px;
+    text-align: center;
+    background: url("../images/introduction/input_bg.jpg") left top no-repeat;
+    /*padding: 0 3px;*/
+}
 
 
 
